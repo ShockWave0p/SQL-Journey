@@ -1,0 +1,13 @@
+-- Day 1 Practice: SQL Basics
+
+-- Q1: Get all columns for employees who work in 'IT' department.
+
+-- Q2: Get name and salary of employees whose salary is greater than 50,000.
+
+-- Q3: Get all employees from Mumbai.
+
+-- Q4: Get employees whose age is less than 30.
+
+-- Q5: Get employees whose salary is not equal to 50000.
+
+-- Q6: Get employees from 'HR' department with salary greater than 45000.
