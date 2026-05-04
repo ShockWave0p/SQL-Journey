@@ -1,0 +1,35 @@
+CREATE TABLE sales_orders (
+    order_id INT PRIMARY KEY,
+    order_date DATE,
+    customer_name VARCHAR(50),
+    city VARCHAR(50),
+    product_name VARCHAR(60),
+    category VARCHAR(30),
+    quantity INT,
+    unit_price NUMERIC(10,2),
+    discount NUMERIC(10,2),
+    total_amount NUMERIC(10,2),
+    sales_channel VARCHAR(20)
+);
+
+INSERT INTO sales_orders VALUES
+(1,'2025-01-02','Aarav Sharma','Pune','Laptop Bag','Accessories',2,1200,100,2300,'Online'),
+(2,'2025-01-03','Meera Iyer','Mumbai','Gaming Laptop','Electronics',1,8500,0,8500,'Offline'),
+(3,'2025-01-04','Rahul Verma','Delhi','Office Chair','Furniture',3,1500,150,4350,'Online'),
+(4,'2025-01-05','Priya Nair','Bangalore','Mouse','Accessories',5,450,50,2200,'Online'),
+(5,'2025-01-06','Karan Patel','Hyderabad','Smartwatch','Electronics',2,2200,200,4200,'Offline'),
+(6,'2025-01-07','Sneha Kapoor','Pune','Office Desk','Furniture',1,6800,300,6500,'Online'),
+(7,'2025-01-08','Aditya Rao','Mumbai','USB Cable','Accessories',4,300,0,1200,'Offline'),
+(8,'2025-01-09','Neha Joshi','Chennai','4K Monitor','Electronics',2,12500,500,24500,'Online'),
+(9,'2025-01-10','Vikram Singh','Delhi','Notebook Set','Stationery',1,999,0,999,'Offline'),
+(10,'2025-01-11','Riya Mehta','Mumbai','Pen Pack','Stationery',6,180,60,1020,'Online'),
+(11,'2025-01-12','Arjun Malhotra','Pune','Tablet','Electronics',3,2400,100,7100,'Online'),
+(12,'2025-01-13','Pooja Shah','Bangalore','Bookshelf','Furniture',2,3200,150,6250,'Offline'),
+(13,'2025-01-14','Kabir Khan','Chennai','Headphones','Electronics',1,14500,700,13800,'Online'),
+(14,'2025-01-15','Isha Gupta','Hyderabad','Printer','Electronics',2,7600,600,14600,'Offline'),
+(15,'2025-01-16','Manish Bhat','Delhi','Water Bottle','Accessories',4,950,100,3700,'Online'),
+(16,'2025-01-17','Saanvi Desai','Mumbai','Smart TV','Electronics',1,18000,1000,17000,'Offline'),
+(17,'2025-01-18','Tanya Roy','Pune','Diary Pack','Stationery',5,520,120,2480,'Online'),
+(18,'2025-01-19','Nikhil Jain','Bangalore','Router','Electronics',2,4100,200,8000,'Online'),
+(19,'2025-01-20','Reyansh Kulkarni','Chennai','Gaming Mouse','Accessories',3,2750,150,8100,'Offline'),
+(20,'2025-01-21','Ananya Reddy','Hyderabad','Projector','Electronics',1,21000,500,20500,'Online');
