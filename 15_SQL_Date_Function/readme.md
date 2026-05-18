@@ -63,4 +63,4 @@ SQL date functions help transform raw dates into meaningful business insights.
 
 # ⏭️ Next Topic
 
-`Views and Materialized Views`
+`Recursive CTEs`
